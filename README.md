@@ -26,6 +26,7 @@ Input: 28×28 grayscale image → flattened (784 dims)
 Hidden layer: 128 ReLU units  
 Output layer: 10 logits (digits 0–9)  
 Parameters: ~101 k  
+Confusion matrix:  
 ![Confusion Matrix](confusion_matrix.png)
 
 ## Results
