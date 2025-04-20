@@ -19,6 +19,7 @@ conda activate Summer_2025
 # train + validate (≈ 30 s on CPU)
 python mnist_practice.py
 ```
+Outputs mnist_two_layer.pth and confusion_matrix.png.  
 
 ## Model
 Input: 28×28 grayscale image → flattened (784 dims)  
