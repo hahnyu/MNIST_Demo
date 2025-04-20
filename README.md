@@ -21,15 +21,15 @@ python mnist_practice.py
 ```
 
 ## Model
-Input: 28×28 grayscale image → flattened (784 dims)
-Hidden layer: 128 ReLU units
-Output layer: 10 logits (digits 0–9)
-Parameters: ~101 k
+Input: 28×28 grayscale image → flattened (784 dims)  
+Hidden layer: 128 ReLU units  
+Output layer: 10 logits (digits 0–9)  
+Parameters: ~101 k  
 
 ## Results
-Validation accuracy (epoch 5): 0.950
-Parameters: 101,770
-Inference latency (GPU, batch 128): 0.01 ms/image
+Validation accuracy (epoch 5): 0.950  
+Parameters: 101,770  
+Inference latency (GPU, batch 128): 0.01 ms/image  
 
 ## Credits
 Created by Hamilton Jeong (Cornell Biometry ’28) as a warm‑up for surgical AI research.
