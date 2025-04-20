@@ -28,5 +28,8 @@ Parameters: ~101 k
 
 ## Results
 Validation accuracy (epoch 5): 0.950
-Parameters: 101 k
-Inference latency (CPU, batch 128): 1.2 ms/image
+Parameters: 101,770
+Inference latency (GPU, batch 128): 0.01 ms/image
+
+## Credits
+Created by Hamilton Jeong (Cornell Biometry ’28) as a warm‑up for surgical AI research.
