@@ -18,3 +18,5 @@ conda activate Summer_2025
 
 # train + validate (≈ 30 s on CPU)
 python mnist_practice.py
+
+### Model
