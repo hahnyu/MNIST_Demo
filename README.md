@@ -18,10 +18,3 @@ conda activate Summer_2025
 
 # train + validate (≈ 30 s on CPU)
 python mnist_practice.py
-
-**## 2. Model**
-
-Input: 28×28 grayscale image → flattened (784 dims)
-Hidden layer: 128 ReLU units
-Output layer: 10 logits (digits 0–9)
-Parameters: ~101 k
