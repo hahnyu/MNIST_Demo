@@ -9,12 +9,12 @@ Purpose: prove I can build / train / evaluate a neural net before scaling to sur
 
 ```bash
 # clone
-git clone https://github.com/hahnyu/Summer_2025.git
-cd Summer_2025
+git clone https://github.com/hahnyu/MNIST_Demo.git
+cd MNIST_Demo
 
 # create environment
 conda env create -f environment.yml
-conda activate Summer_2025
+conda activate MNIST_Demo
 
 # train + validate (≈ 30 s on CPU)
 python mnist_practice.py
